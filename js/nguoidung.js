@@ -7,7 +7,6 @@ window.onload = function () {
 
     // autocomplete cho khung tim kiem
     autocomplete(document.getElementById('search-box'), list_products);
-
     currentUser = getCurrentUser();
 
     if (currentUser) {

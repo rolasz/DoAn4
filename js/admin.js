@@ -35,10 +35,6 @@ function addChart(id, chartOption) {
     var ctx = document.getElementById(id).getContext('2d');
     var chart = new Chart(ctx, chartOption);
 }
-function addChart1(id, chartOption) {
-    var ctx = document.getElementById(id).getContext('2d');
-    var chart = new Chart(ctx, chartOption);
-}
 
 function createChartConfig(
     title = 'Title',
@@ -110,21 +106,20 @@ function addThongKe() {
     let colors = getListRandomColor(Object.keys(thongKeHang).length);
 
     // Thêm thống kê
-    // addChart('myChart1', createChartConfig(
-    //     'Số lượng bán ra',
-    //     'bar', 
-    //     Object.keys(thongKeHang), 
-    //     Object.values(thongKeHang).map(_ =>  _.soLuongBanRa),
-    //     colors,
-    // ));
+    addChart('myChart1', createChartConfig(
+        'Số lượng bán ra',
+        'bar', 
+        Object.keys(thongKeHang), 
+        Object.values(thongKeHang).map(_ =>  _.soLuongBanRa),
+        colors,
+    ));
 
-    addChart1('myChart2', createChartConfig(
+    addChart('myChart2', createChartConfig(
         'Doanh thu',
         'doughnut', 
-        // Object.keys(thongKeHang), 
+        Object.keys(thongKeHang), 
         Object.values(thongKeHang).map(_ =>  _.doanhThu),
-        
-        // colors,
+        colors,
     ));
 
     // var doughnutChart = copyObject(dataChart);
@@ -250,9 +245,8 @@ function layThongTinSanPhamTuTable(id) {
     var rateCount = tr[7].getElementsByTagName('td')[1].getElementsByTagName('input')[0].value;
     var promoName = tr[8].getElementsByTagName('td')[1].getElementsByTagName('select')[0].value;
     var promoValue = tr[9].getElementsByTagName('td')[1].getElementsByTagName('input')[0].value;
-    var tacgia = tr[11].getElementsByTagName('td')[1].getElementsByTagName('input')[0].value;
-    var xuatsu = tr[11].getElementsByTagName('td')[1].getElementsByTagName('input')[0].value;
-   
+    var tacgia = tr[10].getElementsByTagName('td')[1].getElementsByTagName('input')[0].value;
+    var xuatsu = tr[11].getElementsByTagName('td')[1].getElementsByTagName('input')[0].value;   var battery = tr[19].getElementsByTagName('td')[1].getElementsByTagName('input')[0].value;
 
     if(isNaN(price)) {
         alert('Giá phải là số nguyên');
@@ -409,7 +403,7 @@ function addKhungSuaSanPham(masp) {
             <td>
                 <select>`
                     
-    var company = [""];
+var company = ["tt","trtr","gk","vh"];
     for(var c of company) {
         if(sp.company == c)
             s += (`<option value="`+c+`" selected>`+c+`</option>`);
@@ -811,7 +805,6 @@ function getValueOfTypeInTable_KhachHang(tr, loai) {
 }
 
 // ================== Sort ====================
-
 var decrease = true; // Sắp xếp giảm dần
 
 // loại là tên cột, func là hàm giúp lấy giá trị từ cột loai
@@ -856,8 +849,6 @@ function swap(arr, i, j) {
 // Chuyển khuyến mãi vễ dạng chuỗi tiếng việt
 function promoToStringValue(pr) {
     switch (pr.name) {
-        // case 'tragop':
-        //     return 'Góp ' + pr.value + '%';
         case 'giamgia':
             return 'Giảm ' + pr.value;
         case 'giareonline':
@@ -875,8 +866,8 @@ function progress(percent, bg, width, height) {
             </div>`
 }
 
-// for(var i = 0; i < list_products.length; i++) {
-//     list_products[i].masp = list_products[i].company.substring(0, 3) + vitriCompany(list_products[i], i);
-// }
+for(var i = 0; i < list_products.length; i++) {
+    list_products[i].masp = list_products[i].company.substring(0, 3) + vitriCompany(list_products[i], i);
+}
 
-// console.log(JSON.stringify(list_products));
+console.log(JSON.stringify(list_products));

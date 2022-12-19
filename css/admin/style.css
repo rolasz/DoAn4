@@ -8,7 +8,7 @@
 body,
 html {
     min-width: 1024px;
-    background-color: #2f353a;
+    background-color: #F8F8FF;
 }
 
 hr {
@@ -31,7 +31,7 @@ header {
     width: 100%;
     /* position: sticky; */
     padding: 20px 10px;
-    background-color: #3a4149;
+    background-color: #000;
     border-bottom: 1px solid #23282c;
 }
 
@@ -52,7 +52,7 @@ header h2 {
     padding: 1.1rem 1rem;
     font-size: 1.5em;
     font-weight: 700;
-    color: #e4e7ea;
+    color: #000;
     text-align: center;
     text-transform: uppercase;
 }
@@ -66,7 +66,7 @@ header h2 {
 .sidebar .nav-link {
     display: block;
     padding: 1em 1em;
-    color: #73818f;
+    color: #000;
     text-decoration: none;
     background: 0 0;
     cursor: pointer;
@@ -74,13 +74,13 @@ header h2 {
 
 .sidebar .nav-link.active,
 .sidebar .nav-link.active i {
-    background-color: #20a8d8;
+    background-color: rgb(37, 26, 240);
     color: #fff;
 }
 
 .sidebar .nav-link:hover:not(.active),
 .sidebar .nav-link:hover:not(.active) i {
-    background-color: #4a7b8d;
+    background-color: rgb(98, 91, 247);
     color: #fff;
 }
 
@@ -110,8 +110,6 @@ header h2 {
     display: inline-block;
     width: 49%;
     margin: 50px 0;
-    /* margin: auto; */
-    padding-left: 25%;
 }
 
 .flexContain {
@@ -164,9 +162,11 @@ header h2 {
 }
 
 .table-header th {
-    color: #e4e7ea;
-    background-color: #3e464d;
-    border-color: #23282c;
+    color: #fff;
+    background-color: rgb(98, 91, 247);
+    border-color: #000;
+    border-top: 10px;
+
 }
 
 .table-header th {
@@ -188,7 +188,7 @@ header h2 {
     padding: .75rem;
     text-align: center;
     vertical-align: top;
-    border-top: 1px solid #23282c;
+    border-top: 1px solid #fff;
 }
 
 /* phần chứa nội dung  */
@@ -201,18 +201,18 @@ header h2 {
 }
 
 .table-content tr:nth-of-type(even) {
-    background-color: #3e4144;
+    background-color: #fff;
 }
 
 .table-content td {
     position: relative;
-    color: #e4e7ea;
+    color: #000;
 }
 
 /* Link chi tiet san pham */
 .table-content td a {
     display: block;
-    color: #e4e7ea;
+    color: #000;
 }
 
 .table-content td a:hover {
@@ -243,10 +243,11 @@ header h2 {
 
 /*  phần footer table  */
 .table-footer {
-    background-color: #3e464d;
+    background-color: rgb(98, 91, 247);
     padding: .75rem;
     vertical-align: top;
     border-top: 1px solid #23282c;
+    border-radius:  0px 0px 10px  10px;
 }
 
 .table-footer input,

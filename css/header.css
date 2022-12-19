@@ -1,18 +1,18 @@
 /* Header */
 	.header {
-		position: sticky;
-		position: -webkit-sticky; /* Safari */
+		/* height: 100px; */
+		/* position: sticky;
+		position: -webkit-sticky; Safari */
 		top: 0;
 		z-index: 12;
 		background-color: white;
-		padding: 15px 0 5px 0 ;
+		padding: 5px 0 5px 0 ;
 		border-bottom: 3px solid #e1e1e1;
 	}
 
 	/* Logo */
 		.header .logo {
-			width: 250px;
-			height: 100px;
+			height: 125px;
 			float: left;
 			transition-duration: .1s;
 		}
@@ -31,18 +31,41 @@
 			/* tru width cua logo */
 			width: calc(100% - 250px);
 			float: left;
+			padding-top: 25px;
 		}
 
 		/* Search */
 			.search-header {
 				float: left;
 			}
+			#search-box:not(:placeholder-shown) + .lable-input-search{
+				background: #fff;
+    			transform: translate(0, -275%);
+    			opacity: 1;
+			}
+			.lable-input-search{
+				/* Position the label */
+				font-size: 15px;
+				left: 3.2rem;
+				position: absolute;
+				top: 100%;
+				padding-bottom: 5px;
+			
+				/* Hide it by default */
+				opacity: 0;
+				transition: all 250ms;
+			
+				padding: 0 0.5rem;
+				margin-top: 5px;
+				
+				
+			}
 
 			form.input-search {
 				margin-left: 20px;
 				background: #ddd;
-				border: 2px solid #bbb;
-				border-radius: 10px;
+				border: 2px solid #000;
+				/* border-radius: 10px; */
 				height: 35px;
 				width: 300px;
 				/* điều chỉnh width của ô tìm kiếm trên header ở đây */
@@ -51,7 +74,7 @@
 				float: left;
 				padding-left: 15px;
 				border: none;
-				border-radius: 10px 0 0 10px;
+				/* border-radius: 10px 0 0 10px; */
 				height: 100%;
 				width: calc(100% - 100px - 20px);
 				/* 100 la width button, 20 la padding button */
@@ -77,11 +100,12 @@
 
 			.tags {
 				margin: 5px 0 0 20px;
-				font-size: 13px;
+				font-size: 20px;
+				float: left;
 			}
 			.tags a {
 				color: gray;
-				padding: 0 5px;
+				padding: 0 10px;
 			}
 			.tags a:hover {
 				color: black;
@@ -117,7 +141,7 @@
 				}
 				.autocomplete-active {
 					/*when navigating through the items using the arrow keys:*/
-					background-color: DodgerBlue !important; 
+					background-color: #fff !important; 
 					color: #ffffff; 
 				}
 			/* End auto complete */
@@ -137,19 +161,19 @@
 				text-align: center;
 				font-size: 16px;
 				font-weight: bold;
-				color: #565;
+				color: #000;
 				cursor: pointer;
 			}
 			.tools-member a:hover > i {
 				border: 1px solid #fff;
-				background-color: rgb(161, 161, 161);
+				background-color: #000;
 				color: #fff;
 			}
 
 			.tools-member i { /* icon */
 				padding: 10px;
 				border-radius: 50%;
-				border: 1px solid #ccc;
+				border: 2px solid #000;
 				background-color: #fff;
 				color: #000;
 				-webkit-transition: 0.2s;

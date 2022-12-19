@@ -71,7 +71,8 @@
 	    transform: rotateY(0deg);
 	}
 	.dropdown:hover .dropbtn {
-	    background-color: #3e8e41;
+		color: #000;
+	    background-color: #fff;
 	}
 /* ============== End From W3 ============== */
 
@@ -118,19 +119,20 @@
 .khungSanPham {
 	width: 100%;
 	margin: 50px 0;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	border: 2px solid #ff4d00; 
 	box-sizing: border-box; /* dùng để width ko vượt ra ngoài khi có border */
 }
 
 .khungSanPham h3.tenKhung {
+	width: 100%;
 	line-height: 1.5em;
 	font-size: 1.5em;
 	text-align: center;
 	margin: 0 auto;
-	border-radius: 1em;
+	/* border-radius: 1em; */
 	color: white;
-	transform: translateY(-0.75em);
+	transform: translateY(-0.1em);
 }
 
 .khungSanPham li {
@@ -145,11 +147,11 @@
 	/* max-width: 25%; */
 	margin:	0 auto;
 	padding: .5em 1em;
-	border-radius: 1em;
+	/* border-radius: 1em; */
 	color: #888;
 	background-color: #eee;
 	transition-duration: .2s;
-	transform: translateY(1em);
+	/* transform: translateY(1em); */
 }
 .xemTatCa:hover {
 	background-color: #ccc;

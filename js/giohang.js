@@ -4,7 +4,6 @@ window.onload = function () {
 
 	// autocomplete cho khung tim kiem
 	autocomplete(document.getElementById('search-box'), list_products);
-
 	currentuser = getCurrentUser();
 	addProductToTable(currentuser);
 }
@@ -97,10 +96,12 @@ function addProductToTable(user) {
 }
 
 function xoaSanPhamTrongGioHang(i) {
-	if (window.confirm('Xác nhận hủy mua')) {
-		currentuser.products.splice(i, 1);
+	// if (window.confirm('Xác nhận hủy mua')) {	********************************************************
+	// 	currentuser.products.splice(i, 1);	************************************************
+	// 	capNhatMoiThu();	***************************************
+	// }	*****************************************
+	currentuser.products.splice(i, 1);
 		capNhatMoiThu();
-	}
 }
 
 function thanhToan() {
@@ -129,10 +130,12 @@ function thanhToan() {
 
 function xoaHet() {
 	if (currentuser.products.length) {
-		if (window.confirm('Bạn có chắc chắn muốn xóa hết sản phẩm trong giỏ !!')) {
-			currentuser.products = [];
+		// if (window.confirm('Bạn có chắc chắn muốn xóa hết sản phẩm trong giỏ !!')) {	******************************************
+		// 	currentuser.products = [];	******************************************
+		// 	capNhatMoiThu();	**************************************
+		// }	*************************************
+		currentuser.products = [];
 			capNhatMoiThu();
-		}
 	}
 }
 

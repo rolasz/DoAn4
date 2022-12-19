@@ -23,8 +23,9 @@ window.onload = function () {
 
 	// autocomplete cho khung tim kiem
 	autocomplete(document.getElementById('search-box'), list_products);
-
-
+	var company = ["tt.png", "vh.png","sgk.png","trtr.png"
+	];
+	for (var c of company) addCompany("img/company/" + c, c.slice(0, c.length - 4));
 	// Thêm sản phẩm vào trang
 	var sanPhamPhanTich
 	var sanPhamPhanTrang;

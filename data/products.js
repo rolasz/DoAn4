@@ -1,6 +1,6 @@
 var list_products = [{ //Sach
     "name": "Chien thang cuoc choi cuoc song",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Chienthangtrochoicuocsong.jpg",
     "price": "49.000",
     "star": 3,
@@ -16,7 +16,7 @@ var list_products = [{ //Sach
     "masp": "Stt1"
 }, {
     "name": "Tieng ken thien nga",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Tiengkenthiennga.jpg",
     "price": "69.000",
     "star": 0,
@@ -32,7 +32,7 @@ var list_products = [{ //Sach
     "masp": "Stt2"
 }, {
     "name": "Nha Gia Kim",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Nhagiakim.jpg",
     "price": "79.000",
     "star": 5,
@@ -48,7 +48,7 @@ var list_products = [{ //Sach
     "masp": "Stt3"
 }, {
     "name": "Đon Gian",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Dongian.jpg",
     "price": "47.000",
     "star": 5,
@@ -64,7 +64,7 @@ var list_products = [{ //Sach
     "masp": "Stt4"
 }, {
     "name": "Dung De Tien Ngu Yen",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Dungdetiennguyen.png",
     "price": "25.000",
     "star": 0,
@@ -80,7 +80,7 @@ var list_products = [{ //Sach
     "masp": "Stt5"
 }, {
     "name": "Hay Nho Ten Anh Ay",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Haynhotenanhay.jpg",
     "price": "31.000",
     "star": 4,
@@ -96,7 +96,7 @@ var list_products = [{ //Sach
     "masp": "Stt6"
 }, {
     "name": "Hom Nay Toi That Tinh",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Homnaytoithattinh.jpg",
     "price": "46.000",
     "star": 0,
@@ -112,7 +112,7 @@ var list_products = [{ //Sach
     "masp": "Stt7"
 }, {
     "name": "Lam Ban Voi Bau Troi",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Lambanvoibautroi.jpg",
     "price": "62.000",
     "star": 0,
@@ -128,7 +128,7 @@ var list_products = [{ //Sach
     "masp": "Stt8"
 }, {
     "name": "Nguoi Don Tau",
-    "company": "",
+    "company": "tt",
     "img": "img/products/Sach/Nguoidontau.jpg",
     "price": "59.000",
     "star": 0,
@@ -144,7 +144,7 @@ var list_products = [{ //Sach
     "masp": "Stt9"
 }, { //SachGiaoKhoa
     "name": "Tieng Anh 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Tienganh10.jpg",
     "price": "51.000",
     "star": 0,
@@ -160,7 +160,7 @@ var list_products = [{ //Sach
     "masp": "Sgk0"
 }, {
     "name": "Toan 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Toan10.jpg",
     "price": "62.000",
     "star": 0,
@@ -176,7 +176,7 @@ var list_products = [{ //Sach
     "masp": "Sgk1"
 }, {
     "name": "Ngu Van 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Nguvan10.jpg",
     "price": "34.000",
     "star": 4,
@@ -192,7 +192,7 @@ var list_products = [{ //Sach
     "masp": "Sgk2"
 }, {
     "name": "Tin Hoc 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Tinhoc10.jpg",
     "price": "85.000",
     "star": 4,
@@ -208,7 +208,7 @@ var list_products = [{ //Sach
     "masp": "Sgk3"
 }, {
     "name": "Sinh Hoc 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Sinhhoc10.jpg",
     "price": "49.000",
     "star": 4,
@@ -224,7 +224,7 @@ var list_products = [{ //Sach
     "masp": "Sgk4"
 }, {
     "name": "Vat Ly 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Vatly10.jpg",
     "price": "60.000",
     "star": 5,
@@ -240,7 +240,7 @@ var list_products = [{ //Sach
     "masp": "Sgk5"
 }, {
     "name": "Hoa Hoc 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Hoahoc10.jpg",
     "price": "69.000",
     "star": 4.5,
@@ -256,7 +256,7 @@ var list_products = [{ //Sach
     "masp": "Sgk6"
 }, {
     "name": "Dia Li 10",
-    "company": "Địa lí",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Diali10.jpg",
     "price": "77.000",
     "star": 5,
@@ -272,7 +272,7 @@ var list_products = [{ //Sach
     "masp": "Sgk7"
 }, {
     "name": "Cong Nghe 10",
-    "company": "",
+    "company": "sgk",
     "img": "img/products/SachGiaoKhoa/Congnghe10.jpg",
     "price": "71.000",
     "star": 5,
@@ -288,7 +288,7 @@ var list_products = [{ //Sach
     "masp": "Sgk8"
 }, { //SachHoatHinh
     "name": "5 Centimet Tren Giay",
-    "company": "",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/5centimettrengiay.jpg",
     "price": "98.000",
     "star": 4,
@@ -304,7 +304,7 @@ var list_products = [{ //Sach
     "masp": "San0"
 }, {
     "name": "Co Gai Vuot Thoi Gian",
-    "company": "",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Cogaivuotthoigian.jpg",
     "price": "54.000",
     "star": 5,
@@ -320,7 +320,7 @@ var list_products = [{ //Sach
     "masp": "San1"
 }, {
     "name": "Dieu Bi Mat",
-    "company": "",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Dieubimat.jpg",
     "price": "99.000",
     "star": 5,
@@ -336,7 +336,7 @@ var list_products = [{ //Sach
     "masp": "San2"
 }, {
     "name": "Ngoi Nha Nghin Hang Lnag",
-    "company": "",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Ngoinhanghinhanhlang.jpg",
     "price": "89.000",
     "star": 4,
@@ -352,7 +352,7 @@ var list_products = [{ //Sach
     "masp": "San3"
 }, {
     "name": "Ty Quay",
-    "company": "Realme",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Tyquay.jpg",
     "price": "69.000",
     "star": 5,
@@ -368,7 +368,7 @@ var list_products = [{ //Sach
     "masp": "San4"
 }, {
     "name": "Chuyen Con E Co Chong",
-    "company": "Realme",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Chuyenconecochong.jpg",
     "price": "49.000",
     "star": 5,
@@ -384,7 +384,7 @@ var list_products = [{ //Sach
     "masp": "San5"
 }, {
     "name": "One Piece 2",
-    "company": "Realme",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Onepiece2.jpg",
     "price": "80.000",
     "star": 4,
@@ -400,7 +400,7 @@ var list_products = [{ //Sach
     "masp": "San6"
 }, {
     "name": "One Piece 57",
-    "company": "Realme",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Onepiece57.jpg",
     "price": "80.000",
     "star": 4,
@@ -416,7 +416,7 @@ var list_products = [{ //Sach
     "masp": "San7"
 }, {
     "name": "Shin Cau Be But Chi 47",
-    "company": "Philips",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Shincaubebutchi47.jpg",
     "price": "75.000",
     "star": 5,
@@ -432,7 +432,7 @@ var list_products = [{ //Sach
     "masp": "San8"
 }, {
     "name": "NARUTO 1",
-    "company": "Philips",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Naruto1.jpg",
     "price": "63.000",
     "star": 3,
@@ -448,7 +448,7 @@ var list_products = [{ //Sach
     "masp": "San9"
 }, {
     "name": "Conan 13",
-    "company": "Philips",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Conan13.jpg",
     "price": "58.000",
     "star": 5,
@@ -464,7 +464,7 @@ var list_products = [{ //Sach
     "masp": "San10"
 }, {
     "name": "Doremon 1",
-    "company": "",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Doremon1.jpg",
     "price": "45.000",
     "star": 0,
@@ -480,7 +480,7 @@ var list_products = [{ //Sach
     "masp": "San11"
 }, {
     "name": "Tua And The Elephant",
-    "company": "",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Elephant.jpg",
     "price": "74.000",
     "star": 5,
@@ -495,7 +495,7 @@ var list_products = [{ //Sach
     "masp": "San12"
 }, {
     "name": "Muon Nhanh THi Phai Tu Tu",
-    "company": "",
+    "company": "trtr",
     "img": "img/products/SachHoatHinh/Muonnhanhthiphaitutu.jpg",
     "price": "49.000",
     "star": 4,
@@ -511,7 +511,7 @@ var list_products = [{ //Sach
     "masp": "San13"
 }, { //SachVanHoc
     "name": "Victor Hugo - Nhung Nguoi Khon Kho 1",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachVanHoc/Nhungnguoikhonkho1.jpg",
     "price": "220.000",
     "star": 4,
@@ -527,7 +527,7 @@ var list_products = [{ //Sach
     "masp": "Svh0"
 }, {
     "name": "Victor Huygo - Notre-Dame de Paris ",
-    "company": "Mobell",
+    "company": "vh",
     "img": "img/products/SachVanHoc/Thanggunhathoducba.jpg",
     "price": "250.000",
     "star": 4,
@@ -543,7 +543,7 @@ var list_products = [{ //Sach
     "masp": "Svh1"
 }, {
     "name": "Tieng Chim Hot Trong Bui Man Gai",
-    "company": "Mobell",
+    "company": "vh",
     "img": "img/products/SachVanHoc/Tiengchimhottrongbuimangai.jpg",
     "price": "590.000",
     "star": 4,
@@ -559,7 +559,7 @@ var list_products = [{ //Sach
     "masp": "Svh2"
 }, {
     "name": "Nha Tho Paris",
-    "company": "Mobell",
+    "company": "vh",
     "img": "img/products/SachVanHoc/Nhathoducbaparis.jpg",
     "price": "290.000",
     "star": 0,
@@ -575,7 +575,7 @@ var list_products = [{ //Sach
     "masp": "Svh3"
 }, {
     "name": "Ba Ga Cung Thuyen",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachVanHoc/Bagacungthuyen.jpg",
     "price": "890.000",
     "star": 4,
@@ -591,7 +591,7 @@ var list_products = [{ //Sach
     "masp": "Svh4"
 }, {
     "name": "45 Do F",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachVanHoc/45dof.jpg",
     "price": "350.000",
     "star": 5,
@@ -607,7 +607,7 @@ var list_products = [{ //Sach
     "masp": "Svh5"
 }, {
     "name": "The Secret Tree",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachVanHoc/Thesecrettree.jpg",
     "price": "160.000",
     "star": 5,
@@ -623,7 +623,7 @@ var list_products = [{ //Sach
     "masp": "Svh6"
 }, {
     "name": "Ngay Cuoi CUng Cua Mot Tu Tu",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachVanHoc/Ngaycuoicungcuamottutu.jfif",
     "price": "170.000",
     "star": 5,
@@ -639,7 +639,7 @@ var list_products = [{ //Sach
     "masp": "Svh7"
 }, { //SachTieuThuyet
     "name": "33 Ngay That Tinh",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/33ngaythattinh.jpg",
     "price": "390.000",
     "star": 0,
@@ -655,7 +655,7 @@ var list_products = [{ //Sach
     "masp": "STT0"
 }, {
     "name": "Cau Yeu Toi Phai Khong",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Cauyeutoiphaikhong.jpg",
     "price": "590.000",
     "star": 3,
@@ -671,7 +671,7 @@ var list_products = [{ //Sach
     "masp": "STT1"
 }, {
     "name": "Du Gan Ma Khong Dau Don - Du Xa Ma Khong Co Don",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Duganduxa.jfif",
     "price": "280.000",
     "star": 4,
@@ -687,7 +687,7 @@ var list_products = [{ //Sach
     "masp": "STT2"
 }, {
     "name": "Hoang Tu Be",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Hoangtube.jpg",
     "price": "690.000",
     "star": 4,
@@ -703,7 +703,7 @@ var list_products = [{ //Sach
     "masp": "STT3"
 }, {
     "name": "So Do",
-    "company": "Motorola",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Sodo.jpg",
     "price": "290.000",
     "star": 4,
@@ -719,7 +719,7 @@ var list_products = [{ //Sach
     "masp": "STT4"
 }, {
     "name": "Song La Am Thanh Bung No",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Songlaamthambungno.jfif",
     "price": "990.000",
     "star": 0,
@@ -735,7 +735,7 @@ var list_products = [{ //Sach
     "masp": "STT5"
 }, {
     "name": "Thach Lam",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Thachlam.jpg",
     "price": "190.000",
     "star": 5,
@@ -751,7 +751,7 @@ var list_products = [{ //Sach
     "masp": "STT6"
 }, {
     "name": "Thoi Gian Tuoi Dep",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Thoigiantuoidep.jpg",
     "price": "490.000",
     "star": 5,
@@ -767,7 +767,7 @@ var list_products = [{ //Sach
     "masp": "STT7"
 }, {
     "name": "Toi Bi Bo Bat Coc",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Toibibobatcoc.jpg",
     "price": "300.000",
     "star": 4,
@@ -783,7 +783,7 @@ var list_products = [{ //Sach
     "masp": "STT8"
 }, {
     "name": "Tokyo On Foot",
-    "company": "",
+    "company": "vh",
     "img": "img/products/SachTieuThuyet/Tokyoonfoot.jpg",
     "price": "299.000",
     "star": 4,

@@ -23,6 +23,8 @@ function khoiTao() {
     addEventCloseAlertButton();
 }
 
+
+
 // ========= Các hàm liên quan tới danh sách sản phẩm =========
 // Localstorage cho dssp: 'ListProducts
 function setListProducts(newList) {
@@ -217,7 +219,7 @@ function logIn(form) {
     }
 
     // Trả về thông báo nếu không khớp
-    alert('Nhập sai tên hoặc mật khẩu !!!');
+    // alert('Nhập sai tên hoặc mật khẩu !!!'); ********************************************************************
     form.username.focus();
     return false;
 }
@@ -498,14 +500,7 @@ function autocomplete(inp, arr) {
     });
 }
 
-// Thêm từ khóa tìm kiếm
-function addTags(nameTag, link) {
-    var new_tag = `<a href=` + link + `>` + nameTag + `</a>`;
 
-    // Thêm <a> vừa tạo vào khung tìm kiếm
-    var khung_tags = document.getElementsByClassName('tags')[0];
-    khung_tags.innerHTML += new_tag;
-}
 
 // Thêm sản phẩm vào trang
 function addProduct(p, ele, returnString) {
@@ -559,8 +554,6 @@ function addHeader() {
                         </button>
                     </div>
                 </form> <!-- End Form search -->
-                <div class="tags">
-                  
                 </div>
             </div> <!-- End Search header -->
 
@@ -640,9 +633,6 @@ function addContainTaiKhoan() {
                             </label>
                             <input name="pass" type="password" required autocomplete="off" />
                         </div> <!-- pass -->
-
-                        <p class="forgot"><a href="#">Quên mật khẩu?</a></p>
-
                         <button type="submit" class="button button-block" />Tiếp tục</button>
 
                     </form> <!-- /form -->
